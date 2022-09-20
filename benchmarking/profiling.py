@@ -40,4 +40,5 @@ if __name__ == "__main__":
 
         pstats.Stats(profiler)\
             .strip_dirs()\
-            .dump_stats(os.path.join("profiles", f"{Path(filename).stem}_{loglevel}_{harmonization}.prof"))
+            .dump_stats(os.path.join("profiles",
+                                     f"{Path(filename).stem}_{Path(filename).suffix}_{loglevel}_{harmonization}.prof"))
