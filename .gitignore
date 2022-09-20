@@ -37,3 +37,7 @@ __pycache__/
 
 # conda build directory
 /_build
+/benchmarking/NIST_EI_MS.msp
+/benchmarking/GNPS-LIBRARY.mgf
+/benchmarking/GNPS-LIBRARY.msp
+/benchmarking/NIST_EI_MS.mgf
