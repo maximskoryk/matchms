@@ -1,0 +1,101 @@
+ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
+1,0.000,0.000,0.000,0.000,{method 'clear' of 'list' objects}
+1402572,0.092,0.000,0.092,0.000,{method 'copy' of 'list' objects}
+80089380,3.291,0.000,3.291,0.000,{method 'append' of 'list' objects}
+1,0.000,0.000,0.000,0.000,{method 'remove' of 'list' objects}
+2764050,0.181,0.000,0.181,0.000,{method 'get' of 'dict' objects}
+1031381,0.071,0.000,0.071,0.000,{method 'pop' of 'dict' objects}
+1402572,0.087,0.000,0.087,0.000,{method 'keys' of 'dict' objects}
+11158932,2.066,0.000,2.066,0.000,{method 'items' of 'dict' objects}
+2,0.000,0.000,0.000,0.000,{method 'values' of 'dict' objects}
+98,0.000,0.000,0.000,0.000,{method 'clear' of 'dict' objects}
+1,0.000,0.000,0.000,0.000,{method 'add' of 'set' objects}
+1,0.000,0.000,0.000,0.000,{method 'discard' of 'set' objects}
+83575260,7.048,0.000,7.048,0.000,{method 'split' of 'str' objects}
+20915292,1.228,0.000,1.228,0.000,{method 'lower' of 'str' objects}
+40044689,1.774,0.000,1.774,0.000,{method 'lstrip' of 'str' objects}
+83925903,4.385,0.000,4.385,0.000,{method 'rstrip' of 'str' objects}
+83575260,3.389,0.000,3.389,0.000,{method 'strip' of 'str' objects}
+1,0.000,0.000,0.000,0.000,{method 'endswith' of 'str' objects}
+62362690,4.706,0.000,4.823,0.000,{built-in method builtins.isinstance}
+43881214,1.804,0.000,1.804,0.000,{built-in method builtins.len}
+20915292,3.608,0.000,3.608,0.000,{method 'sub' of 're.Pattern' objects}
+40044689,4.570,0.000,4.570,0.000,{method 'findall' of 're.Pattern' objects}
+62800,0.070,0.000,0.070,0.000,{built-in method _codecs.utf_8_decode}
+350643,0.058,0.000,0.058,0.000,{built-in method _abc._abc_instancecheck}
+10,0.000,0.000,0.000,0.000,{method 'acquire' of '_thread.RLock' objects}
+10,0.000,0.000,0.000,0.000,{method 'release' of '_thread.RLock' objects}
+1,0.000,0.000,0.000,0.000,{built-in method io.open}
+1,0.000,0.000,0.000,0.000,codecs.py:260(__init__)
+1,0.000,0.000,0.000,0.000,codecs.py:309(__init__)
+62800,0.033,0.000,0.103,0.000,codecs.py:319(decode)
+350643,0.059,0.000,0.117,0.000,abc.py:96(__instancecheck__)
+1,0.031,0.031,183.168,183.168,profiling.py:11(read_data)
+1,0.415,0.415,183.583,183.583,profiling.py:22(main)
+1,0.000,0.000,0.000,0.000,{method 'disable' of '_lsprof.Profiler' objects}
+20915292,3.963,0.000,12.694,0.000,re.py:203(sub)
+40044689,8.860,0.000,24.081,0.000,re.py:233(findall)
+60959981,11.211,0.000,15.775,0.000,re.py:289(_compile)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:38(_remove)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:81(add)
+350643,0.395,0.000,32.447,0.000,Spectrum.py:71(__init__)
+701286,0.268,0.000,0.268,0.000,{method 'copy' of 'numpy.ndarray' objects}
+701286,2.749,0.000,2.749,0.000,{built-in method numpy.array}
+701286,0.193,0.000,1.710,0.000,{built-in method numpy.core._multiarray_umath.implement_array_function}
+701286,0.612,0.000,0.612,0.000,{method 'reduce' of 'numpy.ufunc' objects}
+701286,0.140,0.000,0.140,0.000,fromnumeric.py:70(<dictcomp>)
+701286,0.417,0.000,1.213,0.000,fromnumeric.py:69(_wrapreduction)
+701286,0.065,0.000,0.065,0.000,fromnumeric.py:2399(_all_dispatcher)
+701286,0.304,0.000,1.517,0.000,fromnumeric.py:2404(all)
+701286,0.236,0.000,2.010,0.000,<__array_function__ internals>:177(all)
+1,0.000,0.000,0.000,0.000,threading.py:81(RLock)
+350643,0.102,0.000,9.739,0.000,Spectrum.py:175(get)
+350643,0.041,0.000,0.041,0.000,Spectrum.py:216(losses)
+350643,0.130,0.000,9.890,0.000,Spectrum.py:224(peaks)
+1,0.000,0.000,0.000,0.000,__init__.py:119(getLevelName)
+5,0.000,0.000,0.000,0.000,__init__.py:193(_checkLevel)
+10,0.000,0.000,0.000,0.000,__init__.py:218(_acquireLock)
+10,0.000,0.000,0.000,0.000,__init__.py:227(_releaseLock)
+1,0.000,0.000,0.000,0.000,__init__.py:248(_register_at_fork_reinit_lock)
+1,0.000,0.000,0.000,0.000,__init__.py:776(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:826(_removeHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:843(_addHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:862(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:891(createLock)
+2,0.000,0.000,0.000,0.000,__init__.py:912(setLevel)
+1,0.000,0.000,0.000,0.000,__init__.py:959(setFormatter)
+1,0.000,0.000,0.000,0.000,__init__.py:1051(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:1276(disable)
+3,0.000,0.000,0.000,0.000,__init__.py:1284(getLogger)
+2,0.000,0.000,0.000,0.000,__init__.py:1372(_clear_cache)
+2,0.000,0.000,0.000,0.000,__init__.py:1417(setLevel)
+1,0.000,0.000,0.000,0.000,__init__.py:1436(info)
+1,0.000,0.000,0.000,0.000,__init__.py:1601(addHandler)
+1,0.000,0.000,0.000,0.000,__init__.py:1675(getEffectiveLevel)
+1,0.000,0.000,0.000,0.000,__init__.py:1689(isEnabledFor)
+3,0.000,0.000,0.000,0.000,__init__.py:2018(getLogger)
+350643,0.306,0.000,2.123,0.000,Fragments.py:35(__init__)
+350643,0.439,0.000,1.788,0.000,Fragments.py:60(_is_sorted)
+701286,0.133,0.000,0.401,0.000,Fragments.py:66(mz)
+350643,0.274,0.000,19.998,0.000,Metadata.py:42(__init__)
+350643,0.152,0.000,17.592,0.000,Metadata.py:78(harmonize_metadata)
+350643,0.158,0.000,9.637,0.000,Metadata.py:92(get)
+701286,0.596,0.000,11.242,0.000,PickyDict.py:82(__init__)
+350643,0.137,0.000,9.455,0.000,PickyDict.py:110(copy)
+13943528,8.773,0.000,24.309,0.000,PickyDict.py:152(_harmonize_key)
+1402572,3.217,0.000,27.911,0.000,PickyDict.py:163(_apply_replacements)
+350643,0.086,0.000,8.067,0.000,PickyDict.py:196(key_replacements)
+350643,0.090,0.000,9.374,0.000,PickyDict.py:205(key_regex_replacements)
+350644,0.646,0.000,183.137,0.001,load_from_msp.py:7(load_from_msp)
+350644,48.508,0.000,148.961,0.000,load_from_msp.py:58(parse_msp_file)
+40044689,16.977,0.000,24.259,0.000,load_from_msp.py:109(get_peak_values)
+40044689,7.696,0.000,11.186,0.000,load_from_msp.py:120(<lambda>)
+40044689,10.381,0.000,12.876,0.000,load_from_msp.py:117(get_peak_tuples)
+40044689,11.758,0.000,35.839,0.000,load_from_msp.py:124(get_peak_comment)
+3485882,1.648,0.000,2.717,0.000,load_from_msp.py:133(parse_metadata)
+43530571,2.958,0.000,2.958,0.000,load_from_msp.py:148(contains_metadata)
+1,0.000,0.000,0.000,0.000,logging_functions.py:49(_init_logger)
+1,0.000,0.000,0.000,0.000,logging_functions.py:60(set_matchms_logger_level)
+1,0.000,0.000,0.000,0.000,logging_functions.py:110(reset_matchms_logger)
+
+

@@ -1,0 +1,149 @@
+ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
+1,0.000,0.000,0.000,0.000,{method 'clear' of 'list' objects}
+134354,0.009,0.000,0.009,0.000,{method 'copy' of 'list' objects}
+15527066,0.436,0.000,0.436,0.000,{method 'append' of 'list' objects}
+12214,0.004,0.000,0.011,0.000,{method 'extend' of 'list' objects}
+1,0.000,0.000,0.000,0.000,{method 'remove' of 'list' objects}
+317567,0.019,0.000,0.019,0.000,{method 'get' of 'dict' objects}
+97718,0.006,0.000,0.006,0.000,{method 'pop' of 'dict' objects}
+146568,0.008,0.000,0.008,0.000,{method 'keys' of 'dict' objects}
+2210734,0.089,0.000,0.089,0.000,{method 'items' of 'dict' objects}
+2,0.000,0.000,0.000,0.000,{method 'values' of 'dict' objects}
+98,0.000,0.000,0.000,0.000,{method 'clear' of 'dict' objects}
+12214,0.001,0.000,0.001,0.000,{method 'copy' of 'dict' objects}
+1,0.000,0.000,0.000,0.000,{method 'add' of 'set' objects}
+1,0.000,0.000,0.000,0.000,{method 'discard' of 'set' objects}
+12214,0.002,0.000,0.002,0.000,{built-in method __new__ of type object at 0x1032b27b0}
+5419968,0.425,0.000,0.425,0.000,{method 'split' of 'str' objects}
+2894718,0.149,0.000,0.149,0.000,{method 'lower' of 'str' objects}
+5688727,0.265,0.000,0.265,0.000,{method 'strip' of 'str' objects}
+2,0.000,0.000,0.000,0.000,{method 'endswith' of 'str' objects}
+8/5,0.000,0.000,0.000,0.000,{built-in method builtins.getattr}
+1,0.000,0.000,0.000,0.000,{built-in method builtins.hasattr}
+4592603,0.305,0.000,0.312,0.000,{built-in method builtins.isinstance}
+12216,0.002,0.000,0.002,0.000,{built-in method builtins.iter}
+5200116,0.149,0.000,0.149,0.000,{built-in method builtins.len}
+24429,0.004,0.000,6.090,0.000,{built-in method builtins.next}
+4348184,0.732,0.000,0.732,0.000,{method 'sub' of 're.Pattern' objects}
+12214,0.004,0.000,0.004,0.000,{method 'split' of 're.Pattern' objects}
+12350,0.008,0.000,0.008,0.000,{built-in method _codecs.utf_8_decode}
+24428,0.004,0.000,0.004,0.000,{built-in method _abc._abc_instancecheck}
+11,0.000,0.000,0.000,0.000,{method 'acquire' of '_thread.RLock' objects}
+11,0.000,0.000,0.000,0.000,{method 'release' of '_thread.RLock' objects}
+1,0.000,0.000,0.000,0.000,{built-in method _locale.nl_langinfo}
+1,0.000,0.000,0.000,0.000,{built-in method io.open}
+2,0.000,0.000,0.000,0.000,{method 'seek' of '_io.TextIOWrapper' objects}
+1,0.000,0.000,0.000,0.000,{method 'tell' of '_io.TextIOWrapper' objects}
+1,0.000,0.000,0.000,0.000,codecs.py:260(__init__)
+2,0.000,0.000,0.000,0.000,codecs.py:276(reset)
+1,0.000,0.000,0.000,0.000,codecs.py:309(__init__)
+12350,0.005,0.000,0.013,0.000,codecs.py:319(decode)
+2,0.000,0.000,0.000,0.000,codecs.py:327(reset)
+1,0.000,0.000,0.000,0.000,codecs.py:871(open)
+24428,0.004,0.000,0.008,0.000,abc.py:96(__instancecheck__)
+1,0.001,0.001,11.183,11.183,profiling.py:11(read_data)
+1,0.014,0.014,11.197,11.197,profiling.py:22(main)
+1,0.000,0.000,0.000,0.000,_bootlocale.py:33(getpreferredencoding)
+1,0.000,0.000,0.000,0.000,{method 'disable' of '_lsprof.Profiler' objects}
+4348184,0.738,0.000,2.485,0.000,re.py:203(sub)
+12214,0.004,0.000,0.012,0.000,re.py:223(split)
+4360398,0.731,0.000,1.019,0.000,re.py:289(_compile)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:38(_remove)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:81(add)
+12214,0.018,0.000,5.025,0.000,Spectrum.py:71(__init__)
+12214,0.035,0.000,3.276,0.000,Spectrum.py:101(_apply_metadata_harmonization)
+1,0.000,0.000,0.000,0.000,{method 'argsort' of 'numpy.ndarray' objects}
+24428,0.010,0.000,0.010,0.000,{method 'copy' of 'numpy.ndarray' objects}
+36642,0.517,0.000,0.517,0.000,{built-in method numpy.array}
+24429,0.007,0.000,0.060,0.000,{built-in method numpy.core._multiarray_umath.implement_array_function}
+24428,0.022,0.000,0.022,0.000,{method 'reduce' of 'numpy.ufunc' objects}
+1,0.000,0.000,0.000,0.000,fromnumeric.py:51(_wrapfunc)
+24428,0.005,0.000,0.005,0.000,fromnumeric.py:70(<dictcomp>)
+24428,0.015,0.000,0.043,0.000,fromnumeric.py:69(_wrapreduction)
+1,0.000,0.000,0.000,0.000,fromnumeric.py:1008(_argsort_dispatcher)
+1,0.000,0.000,0.000,0.000,fromnumeric.py:1012(argsort)
+24428,0.002,0.000,0.002,0.000,fromnumeric.py:2399(_all_dispatcher)
+24428,0.011,0.000,0.054,0.000,fromnumeric.py:2404(all)
+1,0.000,0.000,0.000,0.000,<__array_function__ internals>:177(argsort)
+24428,0.008,0.000,0.071,0.000,<__array_function__ internals>:177(all)
+1,0.000,0.000,0.000,0.000,threading.py:81(RLock)
+12214,0.004,0.000,0.514,0.000,Spectrum.py:175(get)
+24428,0.012,0.000,1.953,0.000,Spectrum.py:204(metadata)
+12214,0.002,0.000,0.002,0.000,Spectrum.py:216(losses)
+12214,0.005,0.000,0.520,0.000,Spectrum.py:224(peaks)
+1,0.000,0.000,0.000,0.000,__init__.py:119(getLevelName)
+5,0.000,0.000,0.000,0.000,__init__.py:193(_checkLevel)
+11,0.000,0.000,0.000,0.000,__init__.py:218(_acquireLock)
+11,0.000,0.000,0.000,0.000,__init__.py:227(_releaseLock)
+1,0.000,0.000,0.000,0.000,__init__.py:248(_register_at_fork_reinit_lock)
+1,0.000,0.000,0.000,0.000,__init__.py:776(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:826(_removeHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:843(_addHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:862(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:891(createLock)
+2,0.000,0.000,0.000,0.000,__init__.py:912(setLevel)
+1,0.000,0.000,0.000,0.000,__init__.py:959(setFormatter)
+1,0.000,0.000,0.000,0.000,__init__.py:1051(__init__)
+2,0.000,0.000,0.000,0.000,__init__.py:1276(disable)
+3,0.000,0.000,0.000,0.000,__init__.py:1284(getLogger)
+2,0.000,0.000,0.000,0.000,__init__.py:1372(_clear_cache)
+2,0.000,0.000,0.000,0.000,__init__.py:1417(setLevel)
+12215,0.003,0.000,0.005,0.000,__init__.py:1436(info)
+1,0.000,0.000,0.000,0.000,__init__.py:1601(addHandler)
+2,0.000,0.000,0.000,0.000,__init__.py:1675(getEffectiveLevel)
+12215,0.002,0.000,0.002,0.000,__init__.py:1689(isEnabledFor)
+3,0.000,0.000,0.000,0.000,__init__.py:2018(getLogger)
+12214,0.011,0.000,0.080,0.000,Fragments.py:35(__init__)
+12214,0.019,0.000,0.068,0.000,Fragments.py:60(_is_sorted)
+24428,0.005,0.000,0.014,0.000,Fragments.py:66(mz)
+24428,0.002,0.000,0.002,0.000,utils.py:11(<genexpr>)
+12214,0.005,0.000,0.010,0.000,utils.py:7(get_first_common_element)
+12214,0.003,0.000,0.005,0.000,add_precursor_mz.py:30(_convert_precursor_mz)
+12214,0.017,0.000,0.064,0.000,add_precursor_mz.py:48(_add_precursor_mz_metadata)
+12214,0.018,0.000,0.068,0.000,interpret_pepmass.py:28(_interpret_pepmass_metadata)
+12214,0.006,0.000,0.007,0.000,interpret_pepmass.py:62(_get_mz_intensity_charge)
+24428,0.004,0.000,0.006,0.000,interpret_pepmass.py:75(_convert_mz_or_intensity)
+24428,0.003,0.000,0.003,0.000,make_charge_int.py:25(try_conversion)
+36642,0.011,0.000,0.016,0.000,make_charge_int.py:23(_convert_charge_to_int)
+24428,0.017,0.000,2.210,0.000,Metadata.py:42(__init__)
+24428,0.010,0.000,1.982,0.000,Metadata.py:78(harmonize_metadata)
+12214,0.006,0.000,0.510,0.000,Metadata.py:92(get)
+24428,0.006,0.000,0.964,0.000,Metadata.py:126(data)
+85498,0.071,0.000,2.617,0.000,PickyDict.py:82(__init__)
+61070,0.020,0.000,2.439,0.000,PickyDict.py:110(copy)
+48856,0.018,0.000,0.113,0.000,PickyDict.py:116(__setitem__)
+2650438,1.441,0.000,4.151,0.000,PickyDict.py:152(_harmonize_key)
+134354,0.420,0.000,4.507,0.000,PickyDict.py:163(_apply_replacements)
+24428,0.006,0.000,1.015,0.000,PickyDict.py:196(key_replacements)
+24428,0.006,0.000,0.957,0.000,PickyDict.py:205(key_regex_replacements)
+36642,0.006,0.000,0.524,0.000,mgf.py:82(<lambda>)
+1,0.000,0.000,0.000,0.000,mgf.py:142(<dictcomp>)
+1,0.000,0.000,0.000,0.000,mgf.py:95(__init__)
+12214,0.003,0.000,0.039,0.000,mgf.py:148(parse_precursor_charge)
+12214,0.002,0.000,0.002,0.000,mgf.py:160(header)
+1,0.000,0.000,0.000,0.000,mgf.py:166(_read_header_lines)
+12214,4.146,0.000,6.015,0.000,mgf.py:180(_read_spectrum_lines)
+1,0.000,0.000,0.000,0.000,mgf.py:362(__init__)
+1,0.000,0.000,0.000,0.000,mgf.py:369(_read_header)
+12214,0.057,0.000,6.072,0.000,mgf.py:373(_read_spectrum)
+12215,0.010,0.000,6.084,0.000,mgf.py:376(_read)
+12214,0.005,0.000,0.007,0.000,structures.py:71(__new__)
+12214,0.008,0.000,0.032,0.000,structures.py:106(__init__)
+12214,0.004,0.000,0.036,0.000,structures.py:126(_parse_charge)
+1,0.000,0.000,0.000,0.000,file_helpers.py:79(wrapped)
+1,0.000,0.000,0.000,0.000,file_helpers.py:94(__init__)
+3,0.000,0.000,0.000,0.000,file_helpers.py:128(__getattr__)
+12216,0.002,0.000,0.004,0.000,file_helpers.py:131(__iter__)
+1,0.000,0.000,0.000,0.000,file_helpers.py:136(__init__)
+1,0.000,0.000,0.000,0.000,file_helpers.py:141(__init__)
+1,0.000,0.000,0.000,0.000,file_helpers.py:173(__iter__)
+12215,0.003,0.000,6.089,0.000,file_helpers.py:176(__next__)
+1,0.000,0.000,0.000,0.000,file_helpers.py:192(__init__)
+1,0.000,0.000,0.000,0.000,file_helpers.py:201(reset)
+4,0.000,0.000,0.000,0.000,file_helpers.py:219(__getattr__)
+12215,0.030,0.000,11.182,0.001,load_from_mgf.py:7(load_from_mgf)
+1,0.000,0.000,0.000,0.000,logging_functions.py:49(_init_logger)
+1,0.000,0.000,0.000,0.000,logging_functions.py:60(set_matchms_logger_level)
+1,0.000,0.000,0.000,0.000,logging_functions.py:110(reset_matchms_logger)
+
+
