@@ -22,6 +22,7 @@ class Profile:
         self.profile_name = Path(profile_path).stem
         self.profile = pd.read_csv(profile_path)
         self.library, self.fileformat, self.loglevel, self.harmonization = self.parse_profile_metadata()
+        self.time = sum(self.profile['tottime'])
 
     def parse_profile_metadata(self):
         if self.profile_name.startswith("NIST"):
@@ -32,7 +33,7 @@ class Profile:
         *_, fileformat, loglevel, harmonization = self.profile_name.split("_")
         fileformat = fileformat.lstrip(".")
 
-        return library, fileformat, loglevel, harmonization
+        return library, fileformat, loglevel, True if harmonization == "True" else False
 
     def __repr__(self):
         return self.profile_name
