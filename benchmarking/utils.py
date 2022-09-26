@@ -22,7 +22,7 @@ class Profile:
         self.profile_name = Path(profile_path).stem
         self.profile = pd.read_csv(profile_path)
         self.library, self.fileformat, self.loglevel, self.harmonization = self.parse_profile_metadata()
-        self.time = sum(self.profile['tottime'])
+        self.time = max(self.profile['cumtime'])
 
     def parse_profile_metadata(self):
         if self.profile_name.startswith("NIST"):
