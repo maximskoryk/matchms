@@ -12,7 +12,7 @@ def read_data(file: str, harmonization: bool = True):
     if file.endswith(".msp"):
         spectra = list(load_from_msp(file, metadata_harmonization=harmonization))
     elif file.endswith(".mgf"):
-        spectra = list(load_from_mgf(file))
+        spectra = list(load_from_mgf(file, metadata_harmonization=harmonization))
     else:
         raise ValueError(f"File extension not recognized: {Path(file).suffix}")
 
