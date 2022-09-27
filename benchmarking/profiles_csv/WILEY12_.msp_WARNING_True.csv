@@ -1,0 +1,164 @@
+ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
+1,0.000,0.000,0.000,0.000,{method 'clear' of 'list' objects}
+6530040,0.412,0.000,0.412,0.000,{method 'copy' of 'list' objects}
+60331464,2.731,0.000,2.731,0.000,{method 'append' of 'list' objects}
+1,0.000,0.000,0.000,0.000,{method 'remove' of 'list' objects}
+13558964,0.917,0.000,0.917,0.000,{method 'get' of 'dict' objects}
+3514461,0.263,0.000,0.263,0.000,{method 'pop' of 'dict' objects}
+7868279,0.455,0.000,0.455,0.000,{method 'keys' of 'dict' objects}
+46974399,6.756,0.000,6.756,0.000,{method 'items' of 'dict' objects}
+2,0.000,0.000,0.000,0.000,{method 'values' of 'dict' objects}
+98,0.000,0.000,0.000,0.000,{method 'clear' of 'dict' objects}
+1,0.000,0.000,0.000,0.000,{method 'add' of 'set' objects}
+1,0.000,0.000,0.000,0.000,{method 'discard' of 'set' objects}
+66747262,6.040,0.000,6.040,0.000,{method 'split' of 'str' objects}
+725560,0.103,0.000,0.103,0.000,{method 'find' of 'str' objects}
+76087924,4.398,0.000,4.398,0.000,{method 'lower' of 'str' objects}
+30165731,1.435,0.000,1.435,0.000,{method 'lstrip' of 'str' objects}
+2176680,0.347,0.000,0.347,0.000,{method 'rfind' of 'str' objects}
+67472867,3.770,0.000,3.770,0.000,{method 'rstrip' of 'str' objects}
+66747262,2.966,0.000,2.966,0.000,{method 'strip' of 'str' objects}
+1,0.000,0.000,0.000,0.000,{method 'endswith' of 'str' objects}
+2176680,0.204,0.000,0.204,0.000,{built-in method builtins.hasattr}
+128967824,9.555,0.000,10.115,0.000,{built-in method builtins.isinstance}
+37307136,1.652,0.000,1.652,0.000,{built-in method builtins.len}
+1338239,0.285,0.000,0.461,0.000,{built-in method builtins.next}
+725560,0.071,0.000,0.071,0.000,{built-in method sys._getframe}
+725560,0.059,0.000,0.059,0.000,{built-in method posix.getpid}
+2176680,0.131,0.000,0.131,0.000,{built-in method posix.fspath}
+91046558,15.902,0.000,15.902,0.000,{method 'sub' of 're.Pattern' objects}
+30165731,3.298,0.000,3.298,0.000,{method 'findall' of 're.Pattern' objects}
+63293,0.070,0.000,0.070,0.000,{built-in method _codecs.utf_8_decode}
+1451120,0.296,0.000,0.296,0.000,{built-in method _abc._abc_instancecheck}
+725560,0.121,0.000,0.121,0.000,{built-in method time.time}
+725560,0.506,0.000,0.506,0.000,{built-in method time.localtime}
+725560,0.883,0.000,0.883,0.000,{built-in method time.strftime}
+1451120,0.114,0.000,0.114,0.000,{built-in method _thread.get_ident}
+1451131,0.213,0.000,0.213,0.000,{method 'acquire' of '_thread.RLock' objects}
+1451131,0.108,0.000,0.108,0.000,{method 'release' of '_thread.RLock' objects}
+1,0.000,0.000,0.000,0.000,{built-in method io.open}
+725560,1.847,0.000,1.847,0.000,{method 'write' of '_io.TextIOWrapper' objects}
+725560,0.108,0.000,0.108,0.000,{method 'flush' of '_io.TextIOWrapper' objects}
+1,0.000,0.000,0.000,0.000,{method 'disable' of '_lsprof.Profiler' objects}
+1,0.000,0.000,0.000,0.000,codecs.py:260(__init__)
+1,0.000,0.000,0.000,0.000,codecs.py:309(__init__)
+63293,0.063,0.000,0.133,0.000,codecs.py:319(decode)
+1451120,0.264,0.000,0.560,0.000,abc.py:96(__instancecheck__)
+1,0.076,0.076,280.579,280.579,profiling.py:11(read_data)
+1,0.792,0.792,281.372,281.372,profiling.py:22(main)
+725560,0.105,0.000,0.153,0.000,posixpath.py:41(_get_sep)
+725560,0.133,0.000,0.190,0.000,posixpath.py:52(normcase)
+725560,0.337,0.000,1.008,0.000,posixpath.py:117(splitext)
+725560,0.430,0.000,0.776,0.000,posixpath.py:140(basename)
+725560,0.401,0.000,0.594,0.000,genericpath.py:121(_splitext)
+91046558,16.935,0.000,55.532,0.000,re.py:203(sub)
+30165731,6.539,0.000,17.837,0.000,re.py:233(findall)
+121212289,21.921,0.000,30.695,0.000,re.py:289(_compile)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:38(_remove)
+1,0.000,0.000,0.000,0.000,_weakrefset.py:81(add)
+725560,1.107,0.000,153.576,0.000,Spectrum.py:71(__init__)
+725560,1.801,0.000,95.623,0.000,Spectrum.py:101(_apply_metadata_harmonization)
+1451120,0.641,0.000,0.641,0.000,{method 'copy' of 'numpy.ndarray' objects}
+1451120,2.357,0.000,2.357,0.000,{built-in method numpy.array}
+1451120,0.446,0.000,3.884,0.000,{built-in method numpy.core._multiarray_umath.implement_array_function}
+1451120,1.460,0.000,1.460,0.000,{method 'reduce' of 'numpy.ufunc' objects}
+1451120,0.308,0.000,0.308,0.000,fromnumeric.py:70(<dictcomp>)
+1451120,0.920,0.000,2.767,0.000,fromnumeric.py:69(_wrapreduction)
+1451120,0.141,0.000,0.141,0.000,fromnumeric.py:2399(_all_dispatcher)
+1451120,0.671,0.000,3.438,0.000,fromnumeric.py:2404(all)
+1451120,0.520,0.000,4.545,0.000,<__array_function__ internals>:177(all)
+1,0.000,0.000,0.000,0.000,threading.py:81(RLock)
+725560,0.115,0.000,0.115,0.000,threading.py:1031(name)
+725560,0.153,0.000,0.204,0.000,threading.py:1306(current_thread)
+725560,0.227,0.000,15.239,0.000,Spectrum.py:175(get)
+725560,0.360,0.000,33.953,0.000,Spectrum.py:204(metadata)
+725560,0.093,0.000,0.093,0.000,Spectrum.py:216(losses)
+725560,0.304,0.000,15.584,0.000,Spectrum.py:224(peaks)
+725561,0.153,0.000,0.201,0.000,__init__.py:119(getLevelName)
+725560,0.178,0.000,0.248,0.000,__init__.py:160(<lambda>)
+5,0.000,0.000,0.000,0.000,__init__.py:193(_checkLevel)
+11,0.000,0.000,0.000,0.000,__init__.py:218(_acquireLock)
+11,0.000,0.000,0.000,0.000,__init__.py:227(_releaseLock)
+1,0.000,0.000,0.000,0.000,__init__.py:248(_register_at_fork_reinit_lock)
+725560,2.756,0.000,5.552,0.000,__init__.py:288(__init__)
+725560,0.181,0.000,0.181,0.000,__init__.py:364(getMessage)
+725560,0.193,0.000,0.296,0.000,__init__.py:427(usesTime)
+725560,0.528,0.000,0.528,0.000,__init__.py:435(_format)
+725560,0.160,0.000,0.688,0.000,__init__.py:438(format)
+725560,0.568,0.000,1.957,0.000,__init__.py:588(formatTime)
+725560,0.181,0.000,0.477,0.000,__init__.py:633(usesTime)
+725560,0.164,0.000,0.853,0.000,__init__.py:639(formatMessage)
+725560,0.755,0.000,4.223,0.000,__init__.py:655(format)
+1,0.000,0.000,0.000,0.000,__init__.py:776(__init__)
+1451120,0.181,0.000,0.181,0.000,__init__.py:796(filter)
+1,0.000,0.000,0.000,0.000,__init__.py:826(_removeHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:843(_addHandlerRef)
+1,0.000,0.000,0.000,0.000,__init__.py:862(__init__)
+1,0.000,0.000,0.000,0.000,__init__.py:891(createLock)
+1451120,0.360,0.000,0.573,0.000,__init__.py:898(acquire)
+1451120,0.284,0.000,0.392,0.000,__init__.py:905(release)
+2,0.000,0.000,0.000,0.000,__init__.py:912(setLevel)
+725560,0.237,0.000,4.460,0.000,__init__.py:918(format)
+725560,0.562,0.000,9.163,0.000,__init__.py:941(handle)
+1,0.000,0.000,0.000,0.000,__init__.py:959(setFormatter)
+1,0.000,0.000,0.000,0.000,__init__.py:1051(__init__)
+725560,0.533,0.000,1.174,0.000,__init__.py:1062(flush)
+725560,0.532,0.000,8.013,0.000,__init__.py:1073(emit)
+2,0.000,0.000,0.000,0.000,__init__.py:1276(disable)
+3,0.000,0.000,0.000,0.000,__init__.py:1284(getLogger)
+2,0.000,0.000,0.000,0.000,__init__.py:1372(_clear_cache)
+2,0.000,0.000,0.000,0.000,__init__.py:1417(setLevel)
+1,0.000,0.000,0.000,0.000,__init__.py:1436(info)
+725560,0.515,0.000,18.426,0.000,__init__.py:1448(warning)
+725560,0.673,0.000,1.175,0.000,__init__.py:1514(findCaller)
+725560,0.290,0.000,5.842,0.000,__init__.py:1550(makeRecord)
+725560,0.585,0.000,17.779,0.000,__init__.py:1565(_log)
+725560,0.361,0.000,10.177,0.000,__init__.py:1591(handle)
+1,0.000,0.000,0.000,0.000,__init__.py:1601(addHandler)
+725560,0.551,0.000,9.714,0.000,__init__.py:1645(callHandlers)
+2,0.000,0.000,0.000,0.000,__init__.py:1675(getEffectiveLevel)
+725561,0.132,0.000,0.132,0.000,__init__.py:1689(isEnabledFor)
+3,0.000,0.000,0.000,0.000,__init__.py:2018(getLogger)
+725560,0.736,0.000,5.176,0.000,Fragments.py:35(__init__)
+725560,1.115,0.000,4.380,0.000,Fragments.py:60(_is_sorted)
+1451120,0.304,0.000,0.945,0.000,Fragments.py:66(mz)
+725560,0.131,0.000,0.131,0.000,utils.py:11(<genexpr>)
+725560,0.245,0.000,0.547,0.000,utils.py:7(get_first_common_element)
+612679,0.931,0.000,1.236,0.000,utils.py:24(<listcomp>)
+612679,0.206,0.000,1.442,0.000,utils.py:14(get_common_keys)
+1225358,0.097,0.000,0.097,0.000,utils.py:36(<lambda>)
+1225358,0.241,0.000,0.241,0.000,utils.py:27(filter_none)
+725560,0.081,0.000,0.081,0.000,add_precursor_mz.py:30(_convert_precursor_mz)
+725560,1.160,0.000,20.471,0.000,add_precursor_mz.py:48(_add_precursor_mz_metadata)
+612679,0.273,0.000,2.456,0.000,add_retention.py:15(safe_store_value)
+1225358,0.358,0.000,0.449,0.000,add_retention.py:37(safe_convert_to_float)
+612679,0.113,0.000,0.113,0.000,add_retention.py:80(<listcomp>)
+612679,1.135,0.000,5.913,0.000,add_retention.py:63(_add_retention)
+725560,0.164,0.000,0.223,0.000,interpret_pepmass.py:28(_interpret_pepmass_metadata)
+725560,0.101,0.000,0.101,0.000,make_charge_int.py:23(_convert_charge_to_int)
+1451120,1.082,0.000,68.892,0.000,Metadata.py:42(__init__)
+1451120,0.651,0.000,59.839,0.000,Metadata.py:78(harmonize_metadata)
+725560,0.336,0.000,15.012,0.000,Metadata.py:92(get)
+725560,0.187,0.000,14.782,0.000,Metadata.py:126(data)
+3627800,2.679,0.000,54.292,0.000,PickyDict.py:82(__init__)
+2176680,0.759,0.000,48.029,0.000,PickyDict.py:110(copy)
+612679,0.323,0.000,2.010,0.000,PickyDict.py:116(__setitem__)
+58354879,32.477,0.000,98.010,0.000,PickyDict.py:152(_harmonize_key)
+6530040,12.351,0.000,110.017,0.000,PickyDict.py:163(_apply_replacements)
+1451120,0.383,0.000,29.771,0.000,PickyDict.py:196(key_replacements)
+1451120,0.402,0.000,29.417,0.000,PickyDict.py:205(key_regex_replacements)
+725560,0.054,0.000,0.054,0.000,process.py:37(current_process)
+725560,0.077,0.000,0.077,0.000,process.py:189(name)
+725561,1.445,0.000,280.503,0.000,load_from_msp.py:7(load_from_msp)
+725561,41.350,0.000,123.210,0.000,load_from_msp.py:58(parse_msp_file)
+30165731,13.387,0.000,19.134,0.000,load_from_msp.py:109(get_peak_values)
+30165731,5.902,0.000,8.720,0.000,load_from_msp.py:120(<lambda>)
+30165731,8.209,0.000,10.173,0.000,load_from_msp.py:117(get_peak_tuples)
+30165731,9.014,0.000,26.851,0.000,load_from_msp.py:124(get_peak_comment)
+6415800,3.116,0.000,5.179,0.000,load_from_msp.py:133(parse_metadata)
+36581531,2.540,0.000,2.540,0.000,load_from_msp.py:148(contains_metadata)
+1,0.000,0.000,0.000,0.000,logging_functions.py:49(_init_logger)
+1,0.000,0.000,0.000,0.000,logging_functions.py:60(set_matchms_logger_level)
+1,0.000,0.000,0.000,0.000,logging_functions.py:110(reset_matchms_logger)
+
+

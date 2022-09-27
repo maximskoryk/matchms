@@ -26,7 +26,7 @@ def main(filename, loglevel, harmonization):
 
 
 if __name__ == "__main__":
-    filenames = ["GNPS-LIBRARY.mgf", "GNPS-LIBRARY.msp", "NIST_EI_MS.mgf", "NIST_EI_MS.msp"]
+    filenames = ["GNPS-LIBRARY.mgf", "GNPS-LIBRARY.msp", "NIST_EI_MS.mgf", "NIST_EI_MS.msp", "WILEY12.mgf", "WILEY12.msp"]
     loglevels = ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]
     harmonizations = [True, False]
 
