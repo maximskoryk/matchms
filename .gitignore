@@ -37,7 +37,11 @@ __pycache__/
 
 # conda build directory
 /_build
+
+# benchmarking data
 /benchmarking/NIST_EI_MS.msp
 /benchmarking/GNPS-LIBRARY.mgf
 /benchmarking/GNPS-LIBRARY.msp
 /benchmarking/NIST_EI_MS.mgf
+/benchmarking/WILEY12.msp
+/benchmarking/WILEY12.mgf
