@@ -10,4 +10,4 @@ def msp_to_mgf(msp_file: str, mgf_file: str):
 
 
 if __name__ == "__main__":
-    msp_to_mgf(sys.argv[2], sys.argv[3])
+    msp_to_mgf(sys.argv[1], sys.argv[2])
