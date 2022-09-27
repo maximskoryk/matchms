@@ -27,8 +27,12 @@ class Profile:
     def parse_profile_metadata(self):
         if self.profile_name.startswith("NIST"):
             library = "NIST"
-        else:
+        elif self.profile_name.startswith("GNPS"):
             library = "GNPS"
+        elif self.profile_name.startswith("WILEY"):
+            library = "WILEY"
+        else:
+            raise ValueError(f"Could not parse library from profile name: {self.profile_name}")
 
         *_, fileformat, loglevel, harmonization = self.profile_name.split("_")
         fileformat = fileformat.lstrip(".")
