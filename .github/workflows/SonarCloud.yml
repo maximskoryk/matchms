@@ -7,8 +7,8 @@ on:
       - completed
 
 jobs:
-  sonarcloud:
-    name: SonarCloud
+  sonarcloud_pip:
+    name: SonarCloud with pip
     runs-on: ubuntu-latest
     if: github.event.workflow_run.conclusion == 'success'
     steps:
@@ -21,6 +21,32 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: coverage-report
+          path: ${{ github.workspace }}
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.scm.revision=${{ github.event.workflow_run.head_sha }}
+            -Dsonar.pullrequest.key=${{ github.event.workflow_run.pull_requests[0].number }}
+            -Dsonar.pullrequest.branch=${{ github.event.workflow_run.pull_requests[0].head.ref }}
+            -Dsonar.pullrequest.base=${{ github.event.workflow_run.pull_requests[0].base.ref }}
+  sonarcloud_conda:
+    name: SonarCloud with conda
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'success'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.workflow_run.head_repository.full_name }}
+          ref: ${{ github.event.workflow_run.head_branch }}
+          fetch-depth: 0
+      - name: Fetch coverage report from artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: coverage-report-conda
           path: ${{ github.workspace }}
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
