@@ -19,7 +19,9 @@ jobs:
           fetch-depth: 0
       - name: Fetch coverage report
         uses: actions/download-artifact@v2
-        # TODO: download coverage.xml from artifacts
+        with:
+          name: coverage-report
+          path: ${{ github.workspace }}
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         env:
