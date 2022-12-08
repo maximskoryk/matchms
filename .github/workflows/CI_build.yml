@@ -49,12 +49,6 @@ jobs:
         run: prospector -o grouped -o pylint:pylint-report.txt
       - name: Check whether import statements are used consistently
         run: isort . --check-only --diff
-      - name: SonarCloud Scan
-        if: github.repository == 'matchms/matchms'
-        uses: sonarsource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   build_pypi:
     name: Test pypi build
